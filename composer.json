@@ -1,6 +1,6 @@
 {
-    "name": "stfalcon/tinymce-bundle",
-    "description": "This Bundle integrates TinyMCE WYSIWYG editor into a Symfony2 project.",
+    "name": "mattgogerly/tinymce-bundle",
+    "description": "This is a fork of stfalcon/TinyMCE Bundle, with a newer version of TinyMCE",
     "keywords": ["wysiwyg", "tinymce", "editor", "symfony2", "bundle"],
     "type": "symfony-bundle",
     "license": "MIT",
@@ -18,11 +18,15 @@
         {
             "name":     "Symfony Community",
             "homepage": "https://github.com/stfalcon/TinymceBundle/contributors"
+        },
+        {
+            "name":     "Matt Gogerly",
+            "email":    "matthewgogerly@gmail.com"
         }
     ],
     "support": {
-        "email": "logansoleg@gmail.com",
-        "issues": "https://github.com/stfalcon/TinymceBundle/issues"
+        "email": "matthewgogerly@gmail.com",
+        "issues": "https://github.com/mattgogerly/TinymceBundle/issues"
     },
     "require": {
         "php": "^7.2.5|^8.0",
